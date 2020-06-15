@@ -98,4 +98,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Basic aliases 
+
+# Save a lot of typing for common commands
+alias gs="git status"
+alias gc="git commit"
+alias v="vim"
+
+# Overwrite existing commands for better defaults
+alias mv="mv -i"           # -i prompts before overwrite
+
+# Alias can be composed
+alias la="ls -A"
+alias lla="la -l"
+
+# Enable syntax highlighting 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
