@@ -112,5 +112,8 @@ alias mv="mv -i"           # -i prompts before overwrite
 alias la="ls -A"
 alias lla="la -l"
 
+# Connect aliases to bash profile?
+source ~/.bash_profile
+
 # Enable syntax highlighting 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
